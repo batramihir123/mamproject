@@ -1,0 +1,65 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    position: relative;
+    width:100%;
+    z-index: 999;
+
+}
+.body{
+margin-top: 300px;
+}
+
+#flex
+{
+    width: 140px;
+    height : 100%;
+}
+
+.logo img{
+position: absolute;
+bottom: -50px; /* Adjust the value to control the amount of overlap */
+left: 20%;
+transform: translateX(-60%);
+border-radius: 50%;
+z-index: -999;
+}
+
+.nav-items >ul {
+    margin-right: 150px;
+    display: flex;
+    font: 20px;
+    list-style-type:none ;
+    flex-flow: wrap;
+}
+.nav-items>ul>li{
+    margin: 7 2 2 7px;
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+
+.form{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    row-gap: 30px;
+    column-gap: 100px;
+}
+
+
+.form1{
+    display: flex;
+    border: 1px;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 100px;
+    gap: 200px;
+}
+.texting{
+    font-size: 28px;
+    row-gap: 20px;
+    column-gap: 30px;
+    font-weight:500;
+}
